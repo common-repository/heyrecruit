@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2024-08-27T08:59:34.027Z\n"
+"PO-Revision-Date: 2024-08-27T08:59:34.028Z\n"
+"Language: de_DE\n"
+
+msgid "General"
+msgstr "Allgemein"
+
+msgid "Page Settings"
+msgstr "Seiteneinstellungen"
+
+msgid "User Options"
+msgstr "Benutzeroptionen"
+
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+msgid "Your Heyrecruit client ID (CLIENT-ID)"
+msgstr "Deine Heyrecruit-Client-ID (CLIENT_ID)"
+
+msgid "Your Heyrecruit secret key (CLIENT-SECRET)"
+msgstr "Dein Heyrecruit-Secret-Key (CLIENT_SECRET)"
+
+msgid "Your Google Maps API key"
+msgstr "Dein Google Maps API-Schlüssel"
+
+msgid "Error: Incorrect access data"
+msgstr "Fehler: Falsche Zugangsdaten"
+
+msgid "and %s other"
+msgstr "und %s weitere"
+
+msgid "Google Maps is disabled in your Heyrecruit account settings"
+msgstr "Google Maps ist in Deinen Heyrecruit-Account-Einstellungen deaktiviert"
+
+msgid "Filter options are disabled in your Heyrecruit account settings"
+msgstr "Filteroptionen sind in Deinen Heyrecruit-Account-Einstellungen deaktiviert"
+
+msgid "Heyrecruit – Career Page"
+msgstr "Heyrecruit – Karriereseite"
+
+msgid "Heyrecruit – Job Page"
+msgstr "Heyrecruit – Stellenanzeige"
+
+msgid "Heyrecruit – Confirm Page"
+msgstr "Heyrecruit – Bestätigungsseite"
+
+msgid "Job not found"
+msgstr "Stelle nicht gefunden"
+
+msgid "Group jobs with multiple locations"
+msgstr "Jobs mit mehreren Standorten gruppieren"
+
+msgid "URL for success page"
+msgstr "URL zu einer externen Bestätigungsseite"
+
+msgid "Company info is disabled in your Heyrecruit account settings"
+msgstr ""
+"Unternehmensinfos sind in Deinen Heyrecruit-Account-Einstellungen "
+"deaktiviert"
+
+msgid "Everything"
+msgstr "Alle"
+
+msgid "All employment types"
+msgstr "Alle Einstellungsarten"
+
+msgid "All departments"
+msgstr "Alle Fachabteilungen"
+
+msgid "Location"
+msgstr "Standort"
+
+msgid "All locations"
+msgstr "Alle Standorte"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Job details"
+msgstr "Zur Stellenanzeige"
+
+msgid "Send"
+msgstr "Abschicken"
+
+msgid "Choose location"
+msgstr "Standort wählen"
+
+msgid "Partly"
+msgstr "Teilweise"
+
+msgid "CustomColor"
+msgstr "Deine Akzentfarbe"
+
+msgid "BackgroundColor"
+msgstr "Deine Hintergrundfarbe"
+
+msgid "Activate Google Tag Manager"
+msgstr "Google Tag Manager aktivieren?"
+
+msgid "No job advertisements available"
+msgstr "Keine Stellenanzeigen verfügbar"
+
+msgid "not specified"
+msgstr "keine Angabe"
+
+msgid "loading"
+msgstr "lädt"
+
+msgid "Jobs overview page id"
+msgstr "ID der Job-Übersichtsseite"
+
+msgid "Job detail page id"
+msgstr "ID der Job-Detailseite"
+
+msgid "Confirm Page id"
+msgstr "ID der Bestätigungsseite"
+
+msgid "No page with the ID %s found."
+msgstr "Keine Seite mit der ID %s gefunden."
+
+msgid "Page id must not be empty."
+msgstr "Seiten ID darf nicht leer sein."
+
+msgid "Example: %s/application-successful-submitted"
+msgstr "Beispiel: https://www.musterurl.de/bewerbung-erfolgreich-abgeschickt"
+
+msgid "external URL warning text"
+msgstr ""
+"Falls eine URL gesetzt wird, wird diese statt der Bestätigunsseiten-ID "
+"genutzt."
+
+msgid "Generate new pages"
+msgstr "Seiten neu generieren"
+
+msgid "Template not found:"
+msgstr "Template nicht gefunden:"
+
+msgid ""
+"The company description is deactivated in the settings of your Heyrecruit "
+"account."
+msgstr ""
+"Die Unternehmensbeschreibung ist in den Einstellungen Ihres "
+"Heyrecruit-Kontos deaktiviert."
+
+msgid ""
+"The company's social links are deactivated in the settings of your "
+"Heyrecruit account."
+msgstr ""
+"Die sozialen Links des Unternehmens sind in den Einstellungen Ihres "
+"Heyrecruit-Kontos deaktiviert."
+
+msgid "successfully-applied"
+msgstr "erfolgreich-beworben"
+
+msgid "Successfully applied."
+msgstr "Erfolgreich beworben."
+
+msgid "Department"
+msgstr "Fachabteilung"
+
+msgid "Type of employment"
+msgstr "Einstellungsart"
+
+msgid "Job"
+msgstr "Stellenanzeige"

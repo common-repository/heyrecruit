@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2024-08-27T09:10:49.351Z\n"
+"PO-Revision-Date: 2024-08-27T09:10:49.352Z\n"
+"Language: en_US\n"
+
+msgid "General"
+msgstr "General"
+
+msgid "Page Settings"
+msgstr "Page Settings"
+
+msgid "User Options"
+msgstr "User Options"
+
+msgid "General Settings"
+msgstr "General Settings"
+
+msgid "Your Heyrecruit client ID (CLIENT-ID)"
+msgstr "Your Heyrecruit client ID (CLIENT_ID)"
+
+msgid "Your Heyrecruit secret key (CLIENT-SECRET)"
+msgstr "Your Heyrecruit secret key (CLIENT_SECRET)"
+
+msgid "Your Google Maps API key"
+msgstr "Your Google Maps API key"
+
+msgid "Error: Incorrect access data"
+msgstr "Error: Incorrect access data"
+
+msgid "and %s other"
+msgstr "and %s other"
+
+msgid "Google Maps is disabled in your Heyrecruit account settings"
+msgstr "Google Maps is disabled in your Heyrecruit account settings"
+
+msgid "Filter options are disabled in your Heyrecruit account settings"
+msgstr "Filter options are disabled in your Heyrecruit account"
+
+msgid "Heyrecruit – Career Page"
+msgstr "Heyrecruit – Career Page"
+
+msgid "Heyrecruit – Job Page"
+msgstr "Heyrecruit – Job Page"
+
+msgid "Heyrecruit – Confirm Page"
+msgstr "Heyrecruit – Confirm Page"
+
+msgid "Job not found"
+msgstr "Job not found"
+
+msgid "Group jobs with multiple locations"
+msgstr "Group jobs with multiple locations"
+
+msgid "URL for success page"
+msgstr "URL to an external success page"
+
+msgid "Company info is disabled in your Heyrecruit account settings"
+msgstr "Company info is disabled in your Heyrecruit account settings"
+
+msgid "Everything"
+msgstr "Everything"
+
+msgid "All employment types"
+msgstr "All employment types"
+
+msgid "All departments"
+msgstr "All departments"
+
+msgid "Location"
+msgstr "Location"
+
+msgid "All locations"
+msgstr "All Locations"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Job details"
+msgstr "Job details"
+
+msgid "Send"
+msgstr "Send"
+
+msgid "Choose location"
+msgstr "Choose location"
+
+msgid "Partly"
+msgstr "Partly"
+
+msgid "CustomColor"
+msgstr "Your accent color"
+
+msgid "BackgroundColor"
+msgstr "Your background color"
+
+msgid "Activate Google Tag Manager"
+msgstr "Activate Google Tag Manager?"
+
+msgid "No job advertisements available"
+msgstr "No job advertisements available"
+
+msgid "not specified"
+msgstr "not specified"
+
+msgid "loading"
+msgstr "loading"
+
+msgid "Jobs overview page id"
+msgstr "Job overview page ID"
+
+msgid "Job detail page id"
+msgstr "Job detail page ID"
+
+msgid "Confirm Page id"
+msgstr "Confirm page ID"
+
+msgid "No page with the ID %s found."
+msgstr "No page with the ID2 %s found."
+
+msgid "Page id must not be empty."
+msgstr "Page id must not be empty."
+
+msgid "Example: %s/application-successful-submitted"
+msgstr "Example: https://www.musterurl.de/application-successful-submitted"
+
+msgid "external URL warning text"
+msgstr "An external URL will get prioritized."
+
+msgid "Generate new pages"
+msgstr "Regenerate all pages"
+
+msgid "Template not found:"
+msgstr "Template not found:"
+
+msgid ""
+"The company description is deactivated in the settings of your Heyrecruit "
+"account."
+msgstr ""
+"The company description is deactivated in the settings of your Heyrecruit "
+"account."
+
+msgid ""
+"The company's social links are deactivated in the settings of your "
+"Heyrecruit account."
+msgstr ""
+"The company's social links are deactivated in the settings of your "
+"Heyrecruit account."
+
+msgid "successfully-applied"
+msgstr "successfully-applied"
+
+msgid "Successfully applied."
+msgstr "Successfully applied."
+
+msgid "Department"
+msgstr "Department"
+
+msgid "Type of employment"
+msgstr "Type of employment"
+
+msgid "Job"
+msgstr "Job"

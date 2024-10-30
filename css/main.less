@@ -1,0 +1,360 @@
+svg, a, input, select, button {
+   outline: none;
+}
+
+#jobsInGoogleMap {
+   height: 40vh;
+}
+
+.infoBox {
+   padding: 20px;
+   margin-bottom: 20px;
+   border: 1px solid gray;
+   background-color: #f7f7f7;
+   box-sizing: border-box;
+}
+
+.hr_jobs_company_info_wrap,
+.hr_job_header,
+.hr_job_header_details {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   margin-bottom: 40px;
+   .hr_jobs_header_image,
+   .hr_job_header_image {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+
+      img {
+         min-height: 360px;
+         height: 40vh;
+         object-fit: cover;
+         width: 100%;
+      }
+
+      .hr_jobs_header_image_overlay,
+      .hr_job_header_image_overlay {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: rgba(128, 128, 128, 0.3);
+         opacity: 1;
+      }
+
+      .hr_jobs_header_image_headlines,
+      .hr_job_header_image_headlines {
+         position: absolute;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+
+         h2, h3 {
+            color: white;
+            font-weight: 500;
+            margin: 0;
+            text-align: center;
+         }
+      }
+   }
+
+   p {
+      margin: 0;
+   }
+}
+
+.hr_job_header {
+   gap: 15px;
+   .hr_job_header_only_headlines {
+      h2, h3 {
+         margin: 0;
+      }
+   }
+}
+
+.hr_job_header_details {
+   margin-top: -20px;
+   margin-bottom: 60px;
+}
+
+.hr_jobs_social_links {
+   display: flex;
+   gap: 10px;
+   a {
+      display: inline-block;
+   }
+}
+
+.hr_jobs_filters {
+   display: flex;
+   flex-wrap: nowrap;
+   margin-top: 30px;
+   gap: 15px;
+   margin-bottom: 55px;
+   z-index: 1;
+   position: relative;
+   box-sizing: border-box;
+   label, input:not([type="button"]), select {
+      width: 100%;
+      box-sizing: border-box;
+      select {
+         padding: 0 0 0 8px;
+         height: 40px;
+      }
+   }
+   input {
+      padding: 0 20px 0 10px;
+      height: 40px;
+   }
+   .hr_search_button {
+      padding: 0 16px;
+      height: 40px;
+   }
+   @media (max-width: 768px) {
+      padding: 0;
+      flex-wrap: wrap;
+      > *:not([type="button"]) {
+         flex-basis: calc(~'50% - 15px');
+      }
+   }
+   @media (max-width: 576px) {
+      > * {
+         flex-basis: 100%;
+      }
+   }
+}
+
+#heyrecruit_jobs {
+   @border-radius: 3px;
+   margin-top: 30px;
+   @media (max-width: 650px){
+      overflow-x: scroll;
+   }
+
+   table {
+      text-align: left;
+      vertical-align: top;
+      border-collapse: collapse;
+      width: 100%;
+      @media (max-width: 650px){
+         margin-bottom: 1em;
+      }
+      thead {
+         tr {
+            border-bottom: 1px solid #666;
+            th {
+               padding: 0 0 10px;
+            }
+         }
+      }
+      tr {
+         &:first-of-type {
+            td {
+               padding: 20px 0 0;
+            }
+         }
+         td, th {
+            padding: 10px 25px 10px 0;
+            &:not(:last-of-type) {
+               padding-right: 25px;
+            }
+         }
+      }
+   }
+   .heyrecruit_list_wrapper {
+      border-radius: @border-radius;
+      margin: 15px 0;
+      padding: 25px 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      > div {
+         padding-right: 15px;
+      }
+      a {
+         text-decoration: none;
+      }
+      h3 {
+         font-size: 1.3em;
+         font-weight: bold;
+         padding: 0;
+         margin: 0 0 5px;
+      }
+      span {
+         margin-right: 30px;
+         font-size: 0.9em;
+         white-space: nowrap;
+         svg {
+            height: 1em;
+            margin:0 8px -2px 0;
+         }
+      }
+      .hr_jobdetail_button {
+         border-radius: @border-radius;
+         padding: 8px 15px;
+         color: white;
+         white-space: nowrap;
+      }
+      @media (max-width: 576px){
+         flex-direction: column;
+         align-items: flex-start;
+         padding: 25px 20px;
+         > div {
+            padding-right: 0;
+            margin-bottom: 15px;
+         }
+      };
+   }
+   .pagination {
+      list-style: none;
+      margin: 45px 0;
+      padding: 0;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      span {
+         text-decoration: none;
+         cursor: pointer;
+         padding: 3px 12px;
+         border-radius: @border-radius;
+         &.ht-selected-page-number {
+            color: white;
+         }
+      }
+   }
+}
+
+#change_location_wrap {
+   display: flex;
+   flex-wrap: wrap;
+   gap: .2rem;
+   margin-bottom: 30px;
+
+   > * {
+      flex: 1 1 100%;
+   }
+
+   select {
+      max-width: 300px;
+      padding: 5px;
+      font-size: 1em;
+      box-sizing: border-box;
+   }
+}
+
+.hr_form {
+   > div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .2rem;
+
+      &:not(:last-of-type) {
+         margin-bottom: 20px;
+      }
+
+      * {
+         flex: 1 1 100%;
+
+         &[type=checkbox] {
+            flex: 0 0 auto;
+
+            & + label {
+               flex: 0 0 auto;
+            }
+         }
+      }
+   }
+
+   select, input:not([type=checkbox]) {
+      max-width: 300px;
+      padding: 5px;
+      font-size: 1em;
+      box-sizing: border-box;
+   }
+
+   .hr_checkbox_with_modal_formfield {
+      display: flex;
+      flex-direction: column;
+      gap: .5em;
+      align-items: flex-start;
+      .hr_checkbox_with_modal_formfield_inner-wrapper {
+         > input {
+            margin-top: 0.5em;
+            width: 1.1em;
+            height: 1.1em;
+         }
+      }
+   }
+}
+
+.hr_job_info {
+   display: flex;
+   flex-wrap: wrap;
+   line-height: 1;
+   gap: 1em 1.5em;
+
+   > span {
+      svg {
+         line-height: 1;
+         height: 1em;
+         width: 1em;
+      }
+
+      &:not(.hr_job_info_location):not(.hr_job_info_salary) {
+         display: flex;
+         gap: .5em;
+         align-items: baseline;
+      }
+
+      &.hr_job_info_location,
+      &.hr_job_info_salary {
+         i {
+            margin-right: .5em;
+         }
+      }
+   }
+}
+
+div[class*="hr_section_"] {
+   &:first-of-type {
+      margin-top: 40px;
+   }
+
+   &:not(.hr_section_form) {
+      margin-bottom: 60px;
+   }
+
+   ul {
+      margin-left: 1.5rem;
+   }
+
+   &.hr_section_media {
+      img {
+         width: 100%;
+         height: auto;
+         max-height: 80vh;
+         object-fit: contain;
+         object-position: left;
+      }
+   }
+}
+
+.hr_checkbox_formfield {
+   legend {
+      margin-bottom: 0;
+   }
+}
+
+.error-message {
+   color:firebrick;
+   font-size: 12px;
+}
